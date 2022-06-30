@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paises!</title>
+</head>
+<body>
+    <h1>Verificando Nacionalidade!</h1>
+    Digite o pais que nasceu: <input type="text" name="paises" id="paises">
+    <input type="button" id="verificar" value="Verificar">
+    <div id="resultPaises">
+
+    </div>
+
+    <script>
+        verificar.addEventListener('click', resNacionalidade)
+
+        function resNacionalidade(){
+            var pais = window.document.querySelector('input#paises')
+            var resNac = window.document.querySelector('div#resultPaises')
+            var paisUp = pais.value.toUpperCase()
+            resNac.innerHTML = `<p>Teu pais de origem é: <strong>${paisUp}</strong></p>`
+            if (paisUp != 'BRASIL'){
+                resNac.innerHTML += `<p>Você é estrangeiro</p>`
+                resNac.innerHTML += `<p>Seja bem-vindo!</p>`
+            }else{
+                resNac.innerHTML += `<p>Você é brasileiro!</p>`
+            }
+            resNac.innerHTML += `<p>Bom passeio!</p>`
+
+        }
+    </script>
+</body>
+</html>
