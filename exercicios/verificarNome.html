@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        var nome = String(window.prompt('Digite seu nome: '));
+        var nomeQntLetras = nome.length;
+        var nomeMaisc = nome.toUpperCase();
+        var nomeMinusc = nome.toLowerCase();
+        document.write(`O nome |<strong>${nome}</strong>| digitado tem <strong>${nomeQntLetras}</strong> letras.<br>`)
+        document.write(`O nome |<strong>${nome}</strong>| digitado em maisc é <strong>${nomeMaisc}</strong><br>`)
+        document.write(`O nome |<strong>${nome}</strong>| digitado em minusc é <strong>${nomeMinusc}</strong><br>`)
+
+    </script>
+</body>
+</html>
