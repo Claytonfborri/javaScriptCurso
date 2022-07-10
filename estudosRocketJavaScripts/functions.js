@@ -7,3 +7,7 @@ const sum = function(number1, number2){ //number1 e number2 são parâmetros par
 }
 
 console.log(sum(2,3)) // 2,3 são argumentos para uma função executadas
+
+
+
+
