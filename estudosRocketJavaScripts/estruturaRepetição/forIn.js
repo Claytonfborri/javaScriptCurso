@@ -10,6 +10,6 @@ let person = {
 
 for (let property in person){
     // console.log(property)
-    console.log(person[property])
+    console.log(property.length)
     // console.log(person.name)
 }
