@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+.container{
+    position: absolute;
+    width: 1366px;
+    height: 768px;
+    left: 0px;
+    top: 0px;
+    background: #DCE4E3;
+}
+
+.sideBarClose{
+    position: absolute;
+    width: 78px;
+    height: 768px;
+    left: 0px;
+    top: 0px;
+    background: #18C29C;
+
+}
+
+img{
+    justify-items: center;
+    position: absolute;
+    
+}
