@@ -6,7 +6,10 @@ const validateHTTPStatus = dogData => {
         throw new Error(`HTTP error, status ${dogData.status}`)
     }
     console.log(dogData);
-    return dogData.json()
+    const ver = dogData.json()
+    console.log(ver);
+    return ver
+    
 }
 
 const setDogImg = ({ message: url }) => {

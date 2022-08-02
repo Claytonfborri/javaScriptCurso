@@ -13,7 +13,7 @@
     background: #DCE4E3;
 }
 
-.sideBarClose{
+.itensSideBarClose{
     position: absolute;
     width: 78px;
     height: 768px;
@@ -23,8 +23,26 @@
 
 }
 
-img{
-    justify-items: center;
-    position: absolute;
-    
+#menu{
+    padding-top: 26px;
 }
+
+div.sideBarClose{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 17px;
+    z-index: 1;
+}
+
+div#log-out{
+    position: absolute;
+    width: 44px;
+    height: 30px;
+    top: 708px;
+    
+    background: rgba(220, 228, 227, 0.6);
+    transform: matrix(-1, 0, 0, 1, 0, 0);    
+}
+
+
