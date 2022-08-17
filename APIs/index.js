@@ -8,7 +8,6 @@ let author = "Clayton"
 
 // DELETE
 app.route('/:identificador').delete( (req, res) => {
-    author = ''
     res.send(req.params.identificador)
 })
 

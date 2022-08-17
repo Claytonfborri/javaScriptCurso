@@ -1,0 +1,26 @@
+O que é API?
+
+- API é como se fosse um garçom. Pega o pedido do cliente e leva para a cozinha. Que após preparar o pedido e 
+colocar nos pratos irão trazer os pedidos até o cliente.
+
+------------------------------------------------------
+
+JSON 
+
+- Formato de arquivo leve, que pode ser usado por qualquer linguagem. Formado por chaves e valores.
+
+
+Objetivo:
+    Troca de informações e dados por sistemas.
+
+--------------------------------------------------------------
+
+5 principais verbos HTTPS
+
+GET - Fornece informações.
+POST - Recebe informações que devem ou não ser registradas.
+DELETE - API recebe identificadores de registros que devem ser apagados.
+PUT - API recebe informações para update de UM OU MAIS registros.
+PATCH - API recebe informações para update de UM registro.
+
+---------------------------------------------------------------------
